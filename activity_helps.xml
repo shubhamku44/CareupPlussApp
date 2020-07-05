@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/disc"
+    android:layout_height="match_parent"
+    tools:context=".helps">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For Inquiry"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="330dp"
+        android:layout_height="388dp"
+        android:layout_below="@id/txt1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:text="Developer:Shubham Kumar;Contact:7999120893;Branch:CSE;Roll:0187CS161101;Sem:7th;Year:4th;College:SISTec(Gandhinagar Bhopal);Email:shubhamku440@gmail.com;Address:Bhopal"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="165dp"
+        android:layout_height="196dp"
+        android:layout_below="@id/txt1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:paddingLeft="2dp"
+        app:srcCompat="@drawable/shubham" />
+
+
+
+</RelativeLayout>

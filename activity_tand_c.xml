@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/disc"
+    tools:context=".tand_c">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="T and C"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="8dp"
+        android:text="Term and Condition For Patient"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="-38dp"
+        android:background="@drawable/btn1"
+        android:text="This is a CareupPlus app;developed By Shubham kumar &amp;team.this app provide you;facilities to  get the information of Doctor specialist for any disease and also get the doctor advice for the disease.you will also get appointment of doctor in any city in India."
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes: This app is temporary not facilitate;delivery of Medicine.but in future it could be happen."
+        android:layout_below="@+id/txt3"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Disclaimer:This app neither be responsible;for any fault nor be developer.If in case anything fault please,;comment me your advise,and I respect your advise.;Thank   You."
+
+        android:layout_below="@id/txt4"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/btn1"/>
+
+
+
+</RelativeLayout>

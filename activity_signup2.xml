@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plus"
+    tools:context=".signup2">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create an account/Doctor"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/btn1"
+        android:hint="  Enter Doctor name" />
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtname"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn1"
+        android:hint="  Enter Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpass"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/btn1"
+        android:hint="  Enter address" />
+
+    <EditText
+        android:id="@+id/txtclinic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtadd"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn1"
+        android:hint="  Enter clinic name" />
+
+    <EditText
+        android:id="@+id/txtcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtclinic"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/btn1"
+        android:hint="  Enter the contact"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/txtspecialist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtcontact"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn1"
+        android:hint="  Enter Specialization"
+
+        />
+
+    <EditText
+        android:id="@+id/txtmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtspecialist"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn1"
+        android:hint="  Enter the Mail"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnsignup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtmail"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-2dp"
+        android:background="@drawable/btn"
+        android:text="Signup"
+        android:textColor="@color/colorAccent" />
+
+
+
+</RelativeLayout>
